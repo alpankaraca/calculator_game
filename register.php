@@ -17,5 +17,5 @@ mysqli_query($link, "INSERT INTO user (username, password, email) VALUES('$usern
 echo $username;
 echo $password;
 echo $email;
-echo "<br> you are registered"
+echo "<br> you are registered";
 ?>
