@@ -19,3 +19,6 @@ echo $password;
 echo $email;
 echo "<br> you are registered";
 ?>
+
+asdf
+
