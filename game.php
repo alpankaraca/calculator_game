@@ -40,6 +40,7 @@ if (!$link) {
         echo $a . "<br />";
         $b = rand(10, 100);
         echo $b;
+        echo "<br>" . $_SESSION["calculator_user"] . "-" . $username . "<br>";
 
         $operation = $operators[array_rand($operators)];
 
