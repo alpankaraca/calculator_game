@@ -22,7 +22,7 @@ if ($result == $given){
 
     $sql = "UPDATE user SET score= score + 1 WHERE username='$username'";
     mysqli_query($link, $sql);
-    $score_table = "SELECT score from user WHERE username='$username'";
+    $score_table = "SELECT * from user WHERE username='$username'";
     $score = mysqli_query($link, $score_table);
 
     while($row = mysqli_fetch_assoc($score)) {
