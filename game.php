@@ -5,7 +5,7 @@
  * Date: 05/12/14
  * Time: 12:16
  */
-
+session_start();
 
 include 'header.php';
 
