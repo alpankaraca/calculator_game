@@ -12,6 +12,11 @@ error_reporting(-1);
 
 include 'header.php';
 
+$link = mysqli_connect('localhost', 'root', '8jy90v');
+if (!$link) {
+    die('Could not connect: ' . mysql_error());
+}
+
 $username = $_POST['username'];
 $password = $_POST['password'];
 $email = $_POST['email'];
