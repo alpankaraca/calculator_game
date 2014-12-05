@@ -21,9 +21,10 @@ if ($result == $given){
     $username = $_SESSION['calculator_user'];
 
     $sql = "UPDATE user SET score= score + 1 WHERE username='$username'";
+    $scoree = "SELECT score from user WHERE username='$username'";
 
 	echo "Congragulations you did a GREAT job! " . $result;
-	echo "<br />Your score is: " . $_SESSION['score'] . "<br />";
+	echo "<br />Your score is: " . $scoree . "<br />";
 	echo '<img src="http://treasure.diylol.com/uploads/post/image/342045/resized_success-kid-meme-generator-congratulations-you-big-girl-170c10.jpg" />';
 }else{
 	echo "<br />Your answer, " . $given . " is not correct! Go back and try again";
