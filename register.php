@@ -14,6 +14,7 @@ include 'header.php';
 
 $link = mysqli_connect('localhost', 'root', '8jy90v');
 if (!$link) {
+    echo "Could not conect";
     die('Could not connect: ' . mysql_error());
 }
 
