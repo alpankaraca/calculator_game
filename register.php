@@ -21,6 +21,15 @@ echo $username;
 echo $password;
 echo $email;
 echo "<br> you are registered";
+
+$sql = 'INSERT INTO user (username, password, email) VALUES("$username", "$password", "$email")';
+if (mysqli_query($link, $sql)) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . mysqli_error($link);
+}
+
+mysqli_close($link);
 ?>
 
 asdf
