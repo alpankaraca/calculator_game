@@ -12,7 +12,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 $email = $_POST['email'];
 
-mysqli_query($link, "INSERT INTO user (username, password, email) VALUES('$username', '$password', '$email') ") or die(mysql_error());
+mysqli_query($link, 'INSERT INTO user (username, password, email) VALUES("$username", "$password", "$email") ') or die(mysql_error());
 
 echo $username;
 echo $password;
