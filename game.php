@@ -32,7 +32,7 @@ if (!$link) {
         function multiply($x, $y) { return $x * $y; }
         function divide($x, $y) { return $x / $y; }
 
-        $operators = array('add', 'subtract', 'multiply', 'divide');
+        $operators = array('add', 'subtract', 'multiply');
         //...
 
 
@@ -40,7 +40,6 @@ if (!$link) {
         echo $a . "<br />";
         $b = rand(10, 100);
         echo $b;
-        echo "<br>" . $_SESSION["calculator_user"] . "-" . $username . "<br>";
 
         $operation = $operators[array_rand($operators)];
 
@@ -49,7 +48,7 @@ if (!$link) {
         echo '<input type="hidden" value="' . $result . '" name="result_h" />';
         ?>
         <br />
-        ___+
+        ___<?php echo $operation ?>
     </p>
 
     <input type="number" placeholder="TOTAL" name="result" />
