@@ -6,7 +6,10 @@
  * Time: 14:17
  */
 
-include 'header.php';
+$link = mysqli_connect('localhost', 'root', '8jy90v');
+if (!$link) {
+    die('Could not connect: ' . mysql_error());
+}
 
 $score_table = "SELECT * from user WHERE username='$username'";
 $score = mysqli_query($link, $score_table);
