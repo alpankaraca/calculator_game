@@ -12,7 +12,7 @@ error_reporting(-1);
 
 include 'header.php';
 
-$link = mysqli_connect('localhost', 'root', '8jy90v');
+$link = mysqli_connect('localhost', 'root', '8jy90v', 'calculator');
 if (!$link) {
     echo "Could not conect";
     die('Could not connect: ' . mysql_error());
