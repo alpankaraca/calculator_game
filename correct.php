@@ -6,6 +6,7 @@
  * Time: 14:17
  */
 
+include 'header.php';
 
 $score_table = "SELECT * from user WHERE username='$username'";
 $score = mysqli_query($link, $score_table);
