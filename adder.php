@@ -38,7 +38,7 @@ if ($result == $given){
 ?>
 </h3>
 
-<a href="/" >Go back </a>
+<a href="../" >Go back </a>
 
 </body>
 
