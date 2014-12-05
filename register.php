@@ -23,10 +23,6 @@ $password = $_POST['password'];
 $email = $_POST['email'];
 
 
-echo $username;
-echo $password;
-echo $email;
-echo "<br> you are registered";
 
 $sql = "INSERT INTO user (username, password, email) VALUES('$username', '$password', '$email')";
 if (mysqli_query($link, $sql)) {
