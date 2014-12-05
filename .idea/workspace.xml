@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eddd003f-1e99-4b4d-a807-dc8572297215" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adder.php" afterPath="$PROJECT_DIR$/adder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="461.iws" />
@@ -70,8 +69,8 @@
       <file leaf-file-name="adder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5295203" vertical-offset="133" max-vertical-offset="870">
-              <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.61254615" vertical-offset="133" max-vertical-offset="870">
+              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
               <folding>
                 <marker date="1417777644000" expanded="true" signature="402:461" placeholder="UPDATE user ..." />
                 <marker date="1417777644000" expanded="true" signature="515:564" placeholder="SELECT score..user..." />
@@ -343,7 +342,13 @@
       <option name="project" value="LOCAL" />
       <updated>1417775193752</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hadi">
+      <created>1417777651865</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1417777651865</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -602,8 +607,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5295203" vertical-offset="133" max-vertical-offset="870">
-          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.61254615" vertical-offset="133" max-vertical-offset="870">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
           <folding>
             <marker date="1417777644000" expanded="true" signature="402:461" placeholder="UPDATE user ..." />
             <marker date="1417777644000" expanded="true" signature="515:564" placeholder="SELECT score..user..." />
