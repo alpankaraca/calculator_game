@@ -23,6 +23,7 @@ if ($result == $given){
     $sql = "UPDATE user SET score=1 WHERE username='$username'";
     if (mysqli_query($link, $sql)) {
         echo "Record updated successfully";
+        echo "<br>". $username . " " . $sql;
     } else {
         echo "Error updating record: " . mysqli_error($link);
     }
