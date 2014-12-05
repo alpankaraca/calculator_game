@@ -15,6 +15,8 @@ if (!$link) {
     die('Could not connect: ' . mysql_error());
 }
 
+$username = $_SESSION["calculator_user"];
+
 
 
 
