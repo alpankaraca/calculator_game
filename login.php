@@ -23,6 +23,7 @@ $sql = "SELECT * from user WHERE username='$username' and password='$password'";
 if (mysqli_query($link, $sql)) {
     $_SESSION['calculator_user'] = $username;
     echo "Logged in successfully";
+    header('Location: /game.php');
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($link);
 }
