@@ -22,7 +22,7 @@ if ($result == $given){
 
     $sql = "UPDATE user SET score= score+1 WHERE username='$username'";
     if (mysqli_query($link, $sql)) {
-
+        header('Location: correct.php');
     } else {
         echo "Error updating record: " . mysqli_error($link);
     }
@@ -38,7 +38,7 @@ if ($result == $given){
 ?>
 </h3>
 
-<a href="../" >Go back </a>
+<a href="/" >Go back </a>
 
 </body>
 
