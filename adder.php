@@ -20,7 +20,7 @@ if (!$link) {
 if ($result == $given){
     $username = $_SESSION['calculator_user'];
 
-    $sql = "UPDATE user SET score=1 WHERE username='$username'";
+    $sql = "UPDATE user SET score=1 WHERE username='alpan'";
     if (mysqli_query($link, $sql)) {
         echo "Record updated successfully";
         echo "<br>". $username . " " . $sql;
