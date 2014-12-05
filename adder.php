@@ -20,13 +20,13 @@ if (!$link) {
 if ($result == $given){
     $username = $_SESSION['calculator_user'];
 
-    $sql = "UPDATE user SET score=1 WHERE username=".$username;
+    $sql = "UPDATE user SET score=1 WHERE username='$username'";
     if (mysqli_query($link, $sql)) {
         echo "Record updated successfully";
     } else {
         echo "Error updating record: " . mysqli_error($link);
     }
-    $score_table = "SELECT * from user WHERE username=".$username;
+    $score_table = "SELECT * from user WHERE username='$username'";
     $score = mysqli_query($link, $score_table);
 
     while($row = mysqli_fetch_assoc($score)) {
