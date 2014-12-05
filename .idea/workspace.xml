@@ -43,13 +43,14 @@
       <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11070111" vertical-offset="150" max-vertical-offset="720">
-              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.55350554" vertical-offset="150" max-vertical-offset="720">
+              <caret line="30" column="94" selection-start-line="30" selection-start-column="94" selection-end-line="30" selection-end-column="94" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1417772971000" expanded="true" signature="545:597" placeholder="INSERT INTO ..." />
-                <marker date="1417772971000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
-                <marker date="1417772971000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+                <marker date="1417773177000" expanded="true" signature="545:597" placeholder="INSERT INTO ..." />
+                <marker date="1417773177000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+                <marker date="1417773177000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+                <marker date="1417773177000" expanded="true" signature="545:676" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -233,7 +234,19 @@
       <option name="project" value="LOCAL" />
       <updated>1417772870513</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hadi">
+      <created>1417772978339</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1417772978339</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hadi">
+      <created>1417773096651</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1417773096651</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -301,9 +314,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1417772971000" expanded="true" signature="545:597" placeholder="INSERT INTO ..." />
-            <marker date="1417772971000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
-            <marker date="1417772971000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:597" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:676" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -334,9 +348,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1417772971000" expanded="true" signature="545:597" placeholder="INSERT INTO ..." />
-            <marker date="1417772971000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
-            <marker date="1417772971000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:597" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:676" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -453,13 +468,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11070111" vertical-offset="150" max-vertical-offset="720">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.55350554" vertical-offset="150" max-vertical-offset="720">
+          <caret line="30" column="94" selection-start-line="30" selection-start-column="94" selection-end-line="30" selection-end-column="94" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1417772971000" expanded="true" signature="545:597" placeholder="INSERT INTO ..." />
-            <marker date="1417772971000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
-            <marker date="1417772971000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:597" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:632" placeholder="INSERT INTO ..." />
+            <marker date="1417773177000" expanded="true" signature="545:676" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
