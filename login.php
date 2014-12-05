@@ -9,6 +9,11 @@ include 'header.php';
 
 
 
+$link = mysqli_connect('localhost', 'root', '8jy90v', 'calculator');
+if (!$link) {
+    echo "Could not conect";
+    die('Could not connect: ' . mysql_error());
+}
 
 $username = $_POST['username'];
 $password = $_POST['password'];
