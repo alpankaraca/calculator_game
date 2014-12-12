@@ -20,4 +20,5 @@ while($row = mysqli_fetch_assoc($score)) {
 
 
 <img src="http://www.guitarmasterclass.net/guitar_forum/uploads/monthly_04_2013/post-17069-1366803213.jpg" />
+
 <a href="/calculator-game/">Again</a>
