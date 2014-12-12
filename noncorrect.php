@@ -19,6 +19,5 @@ while($row = mysqli_fetch_assoc($score)) {
 ?>
 
 
-<img src="http://treasure.diylol.com/uploads/post/image/342045/resized_success-kid-meme-generator-congratulations-you-big-girl-170c10.jpg" style="width: 400px;"/>
-
+<img src="http://www.guitarmasterclass.net/guitar_forum/uploads/monthly_04_2013/post-17069-1366803213.jpg" />
 <a href="/calculator-game/">Again</a>
