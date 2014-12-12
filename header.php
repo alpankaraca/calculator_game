@@ -18,8 +18,11 @@ if (!$link) {
     die('Could not connect: ' . mysql_error());
 }
 
-$username = $_SESSION["calculator_user"];
+if ($_SESSION["calculator_user"]){
 
+    $username = $_SESSION["calculator_user"];
+
+}
 
 
 
