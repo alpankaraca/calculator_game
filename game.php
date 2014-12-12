@@ -5,7 +5,7 @@
  * Date: 05/12/14
  * Time: 12:16
  */
-session_start();
+
 
 include 'header.php';
 
@@ -24,7 +24,7 @@ if (!$link) {
 
 <form action="adder.php" method="post">
     <p>Let's play a game;</p>
-    <p>I'll give you two numbers and you try to add them and type it into the input below and click "yesss" =)</p>
+    <p>I'll give you two numbers and an operation,  you try to calculate them and type it into the input below and click "yesss" =)</p>
     <p>
         <?php
         function add($x, $y) { return $x + $y; }
@@ -51,6 +51,6 @@ if (!$link) {
         ___<?php echo $operation ?>
     </p>
 
-    <input type="number" placeholder="TOTAL" name="result" />
+    <input type="number" placeholder="RESULT" name="result" />
     <input type="submit" value="yesss" />
 </form>
