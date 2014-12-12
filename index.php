@@ -5,7 +5,16 @@
  * Date: 03/12/14
  * Time: 09:40
  */
-    
+
+session_start();
+
+
+if ($_SESSION["calculator_user"]){
+    header('Location: game.php');
+    $username = $_SESSION["calculator_user"];
+
+}
+
 
 
 ?>
